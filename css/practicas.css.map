@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAE;EACA,KAAK,EAAE,KAAK;;AAEd,CAAC;EACC,KAAK,EAAC,KAAK;EACX,eAAe,EAAE,IAAI;;AAEvB,SAAS;EACT,OAAO,EAAE,GAAG",
+"sources": ["practicas.scss"],
+"names": [],
+"file": "practicas.css"
+}
