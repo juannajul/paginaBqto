@@ -3,7 +3,7 @@
   height: auto; overflow:hidden;
   border: 0px solid black;
   margin: auto;
-  margin-right: 300px;
+  margin-right: auto;
 color: white;
 }
 
@@ -132,6 +132,10 @@ margin-top: 10px;
   border-radius: 25px;
 
 }
+.img{
+  margin-right: 7px;
+  margin-bottom: 2px;
+}
 #izq:hover{
   background:grey;
   transition: background 1s;
@@ -139,7 +143,7 @@ margin-top: 10px;
 #der{
   width: 290px;
   height: 300px;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   float: right;
 }
 footer{
