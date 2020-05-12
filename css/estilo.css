@@ -3,9 +3,8 @@
   height: auto; overflow:hidden;
   border: 0px solid black;
   margin: auto;
-  margin-right: 300px;
+  margin-left: 300px;
 color: white;
-mar
 }
 
 header{
@@ -147,6 +146,7 @@ footer{
   margin-top: 100px;
   width: 1100;
 text-align: center;
+
 }
 footer a {
   color:#006699;
