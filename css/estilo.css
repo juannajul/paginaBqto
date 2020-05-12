@@ -146,7 +146,8 @@ footer{
   margin-top: 100px;
   width: 1100;
 text-align: center;
-
+margin: auto;
+margin-right: 300px;
 }
 footer a {
   color:#006699;
