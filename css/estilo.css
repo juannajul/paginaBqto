@@ -2,8 +2,10 @@
   width: 900px;
   height: auto; overflow:hidden;
   border: 0px solid black;
-  margin: auto;
-  margin-right:330px; 
+  margin: 300px;
+  margin-right:auto;
+  margin-top: 15px;
+
 color: white;
 
 }
