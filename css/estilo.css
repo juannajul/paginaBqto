@@ -150,11 +150,13 @@ footer{
   margin-top: 100px;
   width: 900;
 text-align: center;
-margin: auto;
+
 
 }
-footer p {
-  text-align: center;
+footer  p {
+
+  margin-left: 250px;
+  margin-right: 250px;
 }
 footer a {
   color:#006699;
