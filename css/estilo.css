@@ -3,7 +3,6 @@
   height: auto; overflow:hidden;
   border: 0px solid black;
   margin: auto;
-  margin-right: 300px;
 color: white;
 }
 
@@ -25,11 +24,10 @@ header{
 }
 .menu {
 
-  width: 460px;
+  width: 442px;
   height: 40px;
-  border:0px solid black;
+  border: 0px solid black;
   border-radius: 30px;
-
 <!--  float: left;-->
 <!--  margin-top: 60px;-->
 <!-- background: #006699;-->
@@ -58,8 +56,12 @@ header{
 }
 .slider {
   width: 900px;
-  height: auto;
+  height: 600px;
   overflow: hidden;
+}
+.slider-img{
+  width:900px;
+  height:600px;
 }
   .slider ul{
     display: flex;
@@ -91,7 +93,6 @@ header{
   float:left;
   padding: 25px 5px 5px 5px;
   text-align: center;
-
   border-radius: 25px
 }
 .uno:hover{
@@ -120,7 +121,7 @@ header{
 
 width: 900px;
 height: auto; overflow: hidden;
-border: 0px solid black;
+border: 1px solid black;
 margin-top: 10px;
 }
 #izq {
@@ -132,10 +133,6 @@ margin-top: 10px;
   border-radius: 25px;
 
 }
-.img{
-  margin-right: 7px;
-  margin-bottom: 2px;
-}
 #izq:hover{
   background:grey;
   transition: background 1s;
@@ -143,16 +140,104 @@ margin-top: 10px;
 #der{
   width: 290px;
   height: 300px;
-  border: 0px solid #ccc;
+  border: 1px solid #ccc;
   float: right;
 }
 footer{
-  margin-top: 100px;
-  width: 900px;
-text-align: center;
-margin: auto;
 
+  margin-top: 100px;
+  width: 1100;
+text-align: center;
 }
-footer a {
-  color:#006699;
+@media screen and (max-width:500px){
+  #principal{
+    width: 100%;
+  }
+  header {
+    background-position: center;
+    width:100%;
+    height: 300px;
+  }
+  #logo{
+height:10px;
+
+  }
+  .menu{
+margin-top: -20px;
+  }
+  .menu ul{
+    margin-top: 30px;
+    border-top: 5px;
+  }
+  .menu ul li {
+    margin-left: 0px;
+    float:left;
+    align-items: center;
+  }
+  .menu ul li a{
+    float: left;
+  }
+  .slider {
+    width: 501px;
+    height: 300px;
+    margin-top: -130px;
+  }
+.slider-img{
+    width:501px;
+    height:300px;
+  }
+  #categorias {
+    width: 500px;
+    height: auto;overflow: hidden;
+    border: 0px solid black;
+    margin-top: 20px;
+    float: right;
+
+  }
+  .uno {
+    width: 290px;
+    margin-top: 15px;
+    margin-left: 104px;
+    margin-right: 104px;
+    height: 495px; overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 25px 5px 5px 5px;
+    text-align:center;
+    border-radius: 25px
+
+  }
+  .dos{
+    margin-left: 104px;
+    margin-right: 104px;
+
+  }
+  #info {
+  width: 500px;
+  height: auto; overflow: hidden;
+  border: 0px solid black;
+  margin-top: 10px;
+  }
+  #izq {
+    margin-top: 30px;
+    margin-left: 49px;
+    margin-right: 49px;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  .img-cold{
+    margin-left: 49px;
+  }
+  #der{
+    margin-top: 20px;
+    margin-right: 105px;
+    width: 290px;
+    height: 300px;
+    border: 1px solid #ccc;
+  }
+
 }
