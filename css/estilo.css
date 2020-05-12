@@ -145,8 +145,7 @@ margin-top: 10px;
 footer{
   margin-top: 100px;
   width: 900;
-  margin: auto;
-  margin-right: 300px;
+text-align: center;
 
 }
 footer a {
